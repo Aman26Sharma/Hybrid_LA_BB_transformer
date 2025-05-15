@@ -4,6 +4,8 @@ This project explores a hybrid transformer architecture that combines linear att
 
 ### Architecture
 
+![](hybrid_arch.png)
+
 ### Key Contributions
 
 * Efficient Attention Mixing: Evaluated the efficacy of combining block-sparse attention (BigBird) and linear attention to handle long-range dependencies.
@@ -13,7 +15,7 @@ This project explores a hybrid transformer architecture that combines linear att
 ### Technologies used
 
 * Programming Language: Python
-* Frameworks: PyTorch, HuggingFace Transformers, TensorFlow (for visualization)
+* Frameworks: PyTorch, HuggingFace Transformers, TensorFlow 
 * Tools: NVIDIA CUDA Toolkit, Google Colab, TensorBoard
 * Models: Custom implementations of Linear Attention and BigBird, adapted from HuggingFace.
 
